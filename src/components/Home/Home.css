@@ -1,0 +1,43 @@
+.home-container{
+    margin: 0 auto; 
+    width: 1000px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.product-container img{
+    width: 500px
+}
+.text-container{
+    height: 265px;
+    display: flex;
+    align-items: center;
+    background-color: #1d1b1c;
+    color: white;
+    padding: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+.brand-name{
+    text-align: center;
+    letter-spacing: 5px;
+    border-bottom: 2px solid black;
+    font-size: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.brand{
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+.card-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 100px;
+}

@@ -1,0 +1,28 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.profile-pic{
+    width: 45px;
+    height: 45px;
+    border-radius: 90px;
+}
+
+.review-card{
+    display: flex;
+    align-items: center;
+    
+}
+.card{
+    background-color: grey;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.info{
+    margin-left: 10px;
+}
+.description{
+    margin-left: 50px;
+}
