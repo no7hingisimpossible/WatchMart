@@ -1,11 +1,15 @@
+import MyBarChart from '../MyBarChart/MyBarChart';
+import MyLineChart from '../MyLineChart/MyLineChart';
 import './Dashboard.css'
 
 const DashBoard = () => {
 
     return (
-        <div>
-            <p>this is dashboard</p>
+        <div className='dashboard-container'>
+            <MyLineChart></MyLineChart>
+            <MyBarChart></MyBarChart>
         </div>
+
     );
 };
 
