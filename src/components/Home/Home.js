@@ -35,9 +35,13 @@ const Home = () => {
       <div className='card-container'>
 
 
-        {reviews.filter(item => item.rating === 5).map(items => (
+        {/* {reviews.filter(item => item.rating === 5).map(items => (
           <Review key={items.id} item={items} ></Review>
-        ))}
+        ))}  */}
+        
+        {
+          reviews.slice(0,3).map(item => <Review item={item}></Review>)
+        }
 
 
       </div>
