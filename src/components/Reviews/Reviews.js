@@ -7,7 +7,10 @@ const Reviews = (props) => {
     
 
     return (
-        <div className='reviews-container'>
+        <div>
+            <h2 className='section-title'>What Our Customers Say!</h2>
+            <div className='reviews-container'>
+            
             {
                 reviews.map(item => 
                     <div className='card'>
@@ -25,6 +28,7 @@ const Reviews = (props) => {
                 )
             } 
             
+        </div>
         </div>
     );
 };

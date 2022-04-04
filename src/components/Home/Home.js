@@ -31,7 +31,7 @@ const Home = () => {
           <img src={Watch} alt="" />
         </div>
       </div>
-      <h1 className='title'>Watch Our Reviews</h1>
+      <h1 className='title'>Watch Our Reviews ({reviews.slice(0,3).length})</h1>
       <div className='card-container'>
 
 
@@ -46,7 +46,7 @@ const Home = () => {
 
       </div>
        
-      <button onClick={ReviewHandler} className='btn'>All Reviews</button>
+      <button onClick={ReviewHandler} className='btn'>See All Reviews</button>
     </div>
   );
 };
