@@ -1,10 +1,30 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
 import './Reviews.css'
 
-const Reviews = () => {
+const Reviews = (props) => {
+    const [reviews] = useReviews()
+    
+
     return (
-        <div>
-            <p>this is reviews</p>
+        <div className='reviews-container'>
+            {
+                reviews.map(item => 
+                    <div className='card'>
+                    <div className='review-card'>
+                    <img src={item.img} alt="" className='profile-pic'/>
+                    <div className='info'>
+                    <h4>{item.name}</h4>
+                    <p> rating : {item.rating}</p>
+                    {/* <p><small>rating: {rating}</small></p> */}
+                    </div>
+                    </div>
+                    <p className='description'>{item.desc}</p>
+                </div> 
+                
+                )
+            } 
+            
         </div>
     );
 };

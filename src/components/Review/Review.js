@@ -1,17 +1,21 @@
 import React from 'react';
 import './Review.css'
 
-const Review = ({items}) => {
+const Review = (props) => {
+    const {name, img, rating, desc} = (props.item);
+
+    
     return (
         <div className='card'>
             <div className='review-card'>
-            <img src={items.img} alt="" className='profile-pic'/>
+            <img src={img} alt="" className='profile-pic'/>
             <div className='info'>
-            <p>{items.name}</p>
-            {/* <p><small>rating: {items.rating}</small></p> */}
+            <h4>{name}</h4>
+            <p> rating : {rating}</p>
+            {/* <p><small>rating: {rating}</small></p> */}
             </div>
             </div>
-            <p className='description'>{items.desc}</p>
+            <p className='description'>{desc}</p>
         </div>
     );
 };
