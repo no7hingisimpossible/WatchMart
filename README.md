@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Assignment - 9 WatchMart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LiveLink: https://cheerful-jelly-0070af.netlify.app/
+githubLink: https://github.com/programming-hero-web-course-4/product-analysis-website-no7hingisimpossible
 
-## Available Scripts
+## In the project you will find
 
-In the project directory, you can run:
+<li>You will find the home page</li>
+<li>You will find the home page</li>
+<li>You will find the home page</li>
+<li>You will find the home page</li>
 
 ### `npm start`
 
