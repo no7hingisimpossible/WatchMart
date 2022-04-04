@@ -14,7 +14,7 @@
     
 }
 .card{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.133);
     width: 300px;
     border-radius: 20px;
     padding: 10px;
@@ -22,6 +22,13 @@
 }
 .info{
     margin-left: 10px;
+    margin-bottom: 0;
+}
+.info h4{
+    margin-bottom: 0px;
+}
+.info p {
+    margin-top: 0px;
 }
 .description{
     margin-left: 50px;

@@ -20,6 +20,8 @@
 }
 .title{
     text-align: center;
+    width: 1000px;
+    margin: 0 auto;
     font-size: 40px;
     border-bottom: 2px solid black;
 }
@@ -36,8 +38,14 @@
     margin-bottom: -30px;
 }
 .card-container{
-    border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 100px;
+}
+.btn{
+    background-color: #1d1b1c;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 110px;
 }

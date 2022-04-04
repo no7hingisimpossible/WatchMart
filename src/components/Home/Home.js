@@ -46,7 +46,7 @@ const Home = () => {
 
       </div>
        
-      <button onClick={ReviewHandler}>All Reviews</button>
+      <button onClick={ReviewHandler} className='btn'>All Reviews</button>
     </div>
   );
 };
