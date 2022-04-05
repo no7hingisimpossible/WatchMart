@@ -7,7 +7,7 @@ const Reviews = (props) => {
     
 
     return (
-        <div>
+        <div className='container'>
             <h2 className='section-title'>What Our Customers Say!</h2>
             <div className='reviews-container'>
             

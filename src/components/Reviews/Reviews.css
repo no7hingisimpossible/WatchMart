@@ -1,5 +1,4 @@
 .reviews-container{
-    width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,8 +6,15 @@
 .section-title{
     text-align: center;
     border-bottom: 2px solid black;
-    width: 1000px;
+    
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px;
 
+}
+@media screen and (max-width: 441px) {
+    .reviews-container{
+        grid-template-columns: 1fr;
+    }
+    
 }
