@@ -13,7 +13,7 @@ const Reviews = (props) => {
             
             {
                 reviews.map(item => 
-                    <div className='card'>
+                    <div key={item.id} className='card'>
                     <div className='review-card'>
                     <img src={item.img} alt="" className='profile-pic'/>
                     <div className='info'>
