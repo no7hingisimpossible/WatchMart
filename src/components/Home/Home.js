@@ -40,7 +40,7 @@ const Home = () => {
         ))}  */}
         
         {
-          reviews.slice(0,3).map(item => <Review item={item}></Review>)
+          reviews.slice(0,3).map(item => <Review key={item.id} item={item}></Review>)
         }
 
 
