@@ -3,7 +3,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='container'>
             <h3>What is a Semantic Tag?</h3>
             <p>Semantic tag aims to make our code more <b>meaningful</b> which makes our codes more <b>descriptive</b> and it is easier to optimize with SEO. Semantic Tags were introduced in HTML5. Examples of semantic tags are header, main, footer etc</p>
             <h3>What is Context API?</h3>

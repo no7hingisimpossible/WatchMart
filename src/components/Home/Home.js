@@ -15,16 +15,18 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='container'>
       <div className='brand'>
         <h1 className='brand-name'>Watch Mart</h1>
       </div>
       <div className='home-container'>
         <div className='text-container'>
-          <div>
+          <div className='text'>
+            <div>
             <h1>WatchMart is the world's leading Watch House.</h1>
             <p>We’re more than connoisseurs - we're collectors too. We would never tell you to buy a watch we wouldn't buy ourselves first.
             </p>
+            </div>
           </div>
         </div>
         <div className='product-container'>

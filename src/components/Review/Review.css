@@ -1,7 +1,4 @@
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
+
 .profile-pic{
     width: 45px;
     height: 45px;
@@ -32,4 +29,11 @@
 }
 .description{
     margin-left: 50px;
+}
+@media screen and (max-width: 441px) {
+    .review-card{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
 }
