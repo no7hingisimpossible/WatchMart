@@ -2,8 +2,8 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    
 }
+
 .home-container{
     display: flex;
     margin: 100px 0px;
@@ -63,14 +63,16 @@ img{
         display: flex;
         flex-direction: column;
         margin: 50px; 
-        width: 100%;
+        min-width: 100%;
         margin: 0 auto;       
     }
     .brand-name,.title{
         margin: 20px 0px;
     }
     .text-container,.product-container{
-        width: 90%;
+        min-width: 100%;
+        padding: 0px;
+        text-align: left;
     }
 
     .card-container{
